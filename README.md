@@ -2,7 +2,6 @@
 | ----------- | ----------- |
 | Gabriel Michael Molinski | https://github.com/B4KO |
 | Felix Andersen | https://github.com/Felix12390 | 
-| Gabriel Michael Molinski | https://github.com/B4KO   |
 | Steinar Blom | https://github.com/steina021 |
 | Joakim Normann | https://github.com/Befalen   |
 | Andrine Celine Flatby | https://github.com/AndrineCF   |
