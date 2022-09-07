@@ -1,4 +1,4 @@
-| Felix Andersen | GitHub |
+| Full navn | GitHub |
 | ----------- | ----------- |
 | Gabriel Michael Molinski | https://github.com/B4KO |
 | Felix Andersen | https://github.com/Felix12390 | 
