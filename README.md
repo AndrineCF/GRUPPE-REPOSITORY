@@ -1,7 +1,7 @@
 | Full navn | GitHub |
 | ----------- | ----------- |
 | Gabriel Michael Molinski | https://github.com/B4KO   |
+| Jonas Hovdenak | https://github.com/jonhovd  |
 
 Kort beskrivelse:
-Har jobbet med git før, kan de fleste tingene, men er fremdeles ganske dårlig til å ta det i bruk. Tror at vi klarer det 😎 -Gabriel
-
+Jeg har ikke jobbet så mye github fra før av, så jeg er veldig ny til denne platformen. Jeg har klart å lage et egen repostory og linken den lokale pcen - Jonas
