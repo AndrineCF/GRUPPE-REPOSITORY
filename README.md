@@ -1,7 +1,7 @@
-| Full navn | GitHub |
+| Felix Andersen | GitHub |
 | ----------- | ----------- |
-| Gabriel Michael Molinski | https://github.com/B4KO   |
+| Gabriel Michael Molinski | https://github.com/B4KO |
+| Felix Andersen | https://github.com/Felix12390 | 
 
 Kort beskrivelse:
-Har jobbet med git før, kan de fleste tingene, men er fremdeles ganske dårlig til å ta det i bruk. Tror at vi klarer det 😎 -Gabriel
-
+Gruppen har jobbet godt sammen inn mot innleveringen. Jeg har aldri jobbet med git før, og kan ingenting. Er litt lost i alt. Men vi har flere på gruppen som kan mye, så har trorn på at jeg kan lære masse. Min forståelse av gitHub : 1 
