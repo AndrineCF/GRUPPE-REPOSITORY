@@ -6,3 +6,4 @@
 Kort beskrivelse:
 Har jobbet med git før, kan de fleste tingene, men er fremdeles ganske dårlig til å ta det i bruk. Tror at vi klarer det 😎 -Gabriel
 
+Har ingen erfaring selv med github. SKal kunne lære fort når jeg bruker det. -Rune
