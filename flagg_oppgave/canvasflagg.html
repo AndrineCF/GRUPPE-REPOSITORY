@@ -5,66 +5,41 @@
     <title>Flag of Togo</title>
 </head>
 <body>
-    <canvas width="300px" height="200px" id="Togo">
+    <canvas width="270px" height="180px" id="Togo">
 
     </canvas>
 <script>
     const canvas = document.getElementById("Togo");
     const ctx = canvas.getContext("2d");
 
-    const green = "#00b140"
+    const blue = "blue"
     const white = "white"
-    const yellow = "#fdda25"
-    const red = "#cc2647"
 
-    const A = 90*2
-    const B =20*2
-    const C = 60*2
-    const D = 19*2
+    const A = 170
+    const B = 20 
+    const C = 40
+    const D = 180
 
     // Stripe
-    ctx.fillStyle = red;
-    ctx.fillRect(0, 0, C, C)
 
-    ctx.fillStyle = green
-    ctx.fillRect(C, 0, A, B)
+    // ctx.fillStyle = red;
+    // ctx.fillRect(0, 0, C, C)
 
-    ctx.fillStyle = yellow
-    ctx.fillRect(C, B, A, B)
+    // ctx.fillStyle = green
+    // ctx.fillRect(C, 0, A, B)
 
-    ctx.fillStyle = green
-    ctx.fillRect(C, B*2, A, B)
+    // ctx.fillStyle = yellow
+    // ctx.fillRect(C, B, A, B)
 
-    ctx.fillStyle = yellow
-    ctx.fillRect(0, 120, (C+A), B)
+    // ctx.fillStyle = green
+    // ctx.fillRect(C, B*2, A, B)
 
-    ctx.fillStyle = green
-    ctx.fillRect(0, 160, (C+A), B)
+    // ctx.fillStyle = yellow
+    // ctx.fillRect(0, 120, (C+A), B)
 
+    // ctx.fillStyle = green
+    // ctx.fillRect(0, 160, (C+A), B)
 
-    // Stjerne
-
-    ctx.strokeStyle = white
-    ctx.fillStyle = white
-    ctx.beginPath()
-
-    ctx.moveTo(60, 28)
-    ctx.lineTo(48, 55)
-    ctx.lineTo(22, 55)
-
-    ctx.lineTo(44, 70)
-    ctx.lineTo(34, 90)
-    ctx.lineTo(60, 80)
-
-    ctx.lineTo(84, 90)
-    ctx.lineTo(76, 70)
-
-    ctx.lineTo(94, 55)
-    ctx.lineTo(72, 55)
-    ctx.lineTo(60, 28)
-
-    ctx.stroke()
-    ctx.fill()
 
 </script>
 
