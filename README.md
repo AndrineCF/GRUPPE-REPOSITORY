@@ -15,4 +15,3 @@ Har ingen erfaring selv med github. SKal kunne lære fort når jeg bruker det. -
 Har lite erfaring med git, men alltid vært interessert i å komme med inn i den endelige verden med tegn. - Joakim
 Har ikke jobbet med github før, forstår ikke så mye enda, men ser frem til å lære mere om dette. -Steinar
 Jeg har ikke jobbet så mye github fra før av, så jeg er veldig ny til denne platformen. Jeg har klart å lage et egen repostory og linken den lokale pcen - Jonas
-
