@@ -10,7 +10,7 @@ ctx.moveTo(0,y)
 ctx.lineTo(500,15)
 ctx.stroke();
 
-//Lage kule
+//Lage kule 1
 ctx.beginPath();
 ctx.arc(50, y, radius, 0, 2 * Math.PI);
 ctx.stroke();
