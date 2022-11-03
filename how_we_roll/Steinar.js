@@ -1,9 +1,6 @@
 var c=document.getElementById("Linje4")
 var ctx=c.getContext("2d");
 
-const y = 15
-const radius = 12.5
-
 //Laget linje 4
 ctx.beginPath();
 ctx.moveTo(0,y)
@@ -33,9 +30,6 @@ ctx.fill();
 
 var c=document.getElementById("Linje5")
 var ctx=c.getContext("2d");
-
-const y = 15
-const radius = 12.5
 
 //Laget linje 5
 ctx.beginPath();
