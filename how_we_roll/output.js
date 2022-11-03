@@ -16,3 +16,10 @@ ctx.arc(50, y, radius, 0, 2 * Math.PI);
 ctx.stroke();
 ctx.fillStyle = "#00FFF0";
 ctx.fill();
+
+//Lage kule 2
+ctx.beginPath();
+ctx.arc(300,y,radius,0,2* Math.PI);
+ctx.stroke();
+ctx.fillStyle="blue";
+ctx.fill();
