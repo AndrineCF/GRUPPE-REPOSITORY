@@ -5,45 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WEB FORM</title>
+    <style>
+        .centreForm {
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
 <form>
-    <div>
+    <div class="centreForm">
         <div>
-            <label for="WakeupTime">Early bird VS Night owl</label>
+            <label for="WakeupTime">Early bird</label>
             <input type="range" name="WakeupTime" min="1" max="1000">
+            <label for="WakeupTime">Night owl</label>
         </div>
         <div>
-            <label for="WorkTogether">Work on it together VS Go off alone and think</label>
+            <label for="WorkTogether">Work on it together</label>
             <input type="range" name="WorkTogether" min="1" max="1000">
+            <label fo="WorkTogether">Go off alone and think</label>
         </div>
         <div>
-            <label for="BackStory">Tell me the backstory VS Cu to the chase</label>
+            <label for="BackStory">Tell me the backstory</label>
             <input type="range" name="BackStory" min="1" max="1000">
+            <label for="BackStory">Cut to the chase</label>
         </div>
         <div>
-            <label for="talkItOut">Need to talk it out VS Need to move on</label>
+            <label for="talkItOut">Need to talk it out</label>
             <input type="range" name="talkItOut" min="1" max="1000">
+            <label for="talkItOut">Need to move on</label>
         </div>
         <div>
-            <label for="Processor">Verbal processor VS Mental processor</label>
+            <label for="Processor">Verbal processor</label>
             <input type="range" name="Processor" min="1" max="1000">
+            <label for="Processor">Mental processor</label>
         </div>
         <div>
-            <label for="Schedule">Schedule a time to chat VS Interrupt me when you need me</label>
+            <label for="Schedule">Schedule a time to chat</label>
             <input type="range" name="Schedule" min="1" max="1000">
+            <label for="Schedule">Interrupt me when you need me</label>
         </div>
         <div>
-            <label for="chatting">Video chat VS  Slack/text</label>
+            <label for="chatting">Video chat</label>
             <input type="range" name="chatting" min="1" max="1000">
+            <label for="chatting">Slack/text</label>
         </div>
-      <div>
-        <label for="WorkTime">09-17 VS i have no set schedule</label>
-        <input type="range" name="WorkTime" min="1" max="1000">
-      </div>
-      <div>
-      <label for="planning"> Planner VS Las minute</label>
-      <input type="range" name="planning" min="1" max="1000">
+        <div>
+            <label for="workTime">09-17</label>
+            <input type="range" name="workTime" min="1" max="1000">
+            <label for="workTime">I have no set schedule</label>
+        </div>
+        <div>
+            <label for="planning"> Planner</label>
+            <input type="range" name="planning" min="1" max="1000">
+            <label for="planning">Last minute</label>
+        </div>
+        <div>
+            <button type="button">Submit</button>
         </div>
     </div>
 </form>
