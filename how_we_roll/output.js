@@ -1,13 +1,34 @@
-var c=document.getElementById("Linje1")
-var ctx=c.getContext("2d");
-
 const y = 15
 const radius = 12.5
+const width = 500
+
+//regner ut koordinater for sirker på y-aksen
+function utregningOutput(prosent) {
+    return (prosent * width) / 100
+}
+
+// function lageLine(id) {
+//     var c=document.getElementById(id)
+//     var ctx=c.getContext("2d");
+
+//     //lage linje
+//     ctx.beginPath();
+//     ctx.moveTo(0,y)
+//     ctx.lineTo(width,15)
+//     ctx.stroke();
+// }
+
+// lageLine("linje1")
+
+
+var id = "linje1"
+var c=document.getElementById(id)
+var ctx=c.getContext("2d");
 
 //Laget linje 1
 ctx.beginPath();
 ctx.moveTo(0,y)
-ctx.lineTo(500,15)
+ctx.lineTo(width,15)
 ctx.stroke();
 
 //Lage kule 1
