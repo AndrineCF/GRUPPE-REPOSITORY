@@ -23,5 +23,8 @@ function myBtn() {
     formData['workTogether'] = workTogeth
     formData['wakeupTime'] = morningTime
 
+    var jsonString = JSON.stringify(formData);
+    console.log(jsonString)
+
     console.log(formData.planning)
 }
