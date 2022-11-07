@@ -27,4 +27,6 @@ function myBtn() {
     console.log(jsonString)
 
     console.log(formData.planning)
+
+    output.innerText = jsonString
 }
