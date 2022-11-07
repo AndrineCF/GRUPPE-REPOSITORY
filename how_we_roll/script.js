@@ -18,5 +18,10 @@ function myBtn() {
     formData['chatting'] = interaction
     formData['Schedule'] = chat
     formData['Processor'] = processor
+    formData['talkItOut'] = talkItOut
+    formData['backStory'] = story
+    formData['workTogether'] = workTogeth
+    formData['wakeupTime'] = morningTime
+
     console.log(formData.planning)
 }
