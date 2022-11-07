@@ -10,5 +10,15 @@ function myBtn() {
     console.log(story)
     var talkItOut = document.getElementById("talkItOut").value
     console.log(talkItOut)
+    var processor = document.getElementById("Processor").value
+    console.log(processor)
+    var chat = document.getElementById("Schedule").value
+    console.log(chat)
+    var interaction = document.getElementById("chatting").value
+    console.log(interaction)
+    var workTime = document.getElementById("workTime").value
+    console.log(workTime)
+    var plan = document.getElementById("planning").value
+    console.log(plan)
 
 }
