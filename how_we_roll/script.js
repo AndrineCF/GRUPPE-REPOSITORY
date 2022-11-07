@@ -1,6 +1,6 @@
 function myBtn() {
 
-   var morningTime = document.getElementById("wakeupTime").value
+    var morningTime = document.getElementById("wakeupTime").value
     var workTogeth = document.getElementById("workTogether").value
     var story = document.getElementById("backStory").value
     var talkItOut = document.getElementById("talkItOut").value
@@ -25,8 +25,6 @@ function myBtn() {
 
     var jsonString = JSON.stringify(formData);
     console.log(jsonString)
-
-    console.log(formData.planning)
 
     output.innerText = jsonString
 }
