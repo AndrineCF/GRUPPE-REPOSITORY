@@ -6,8 +6,8 @@ const radius = 12.5
 
 //Laget linje 1
 ctx.beginPath();
-ctx.moveTo(0,y)
-ctx.lineTo(500,15)
+ctx.moveTo(50, y)
+ctx.lineTo(550, 15)
 ctx.stroke();
 
 //Lage kule

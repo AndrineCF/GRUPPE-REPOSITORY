@@ -3,8 +3,8 @@ var ctx = c.getContext("2d");
 
 //Laget linje 4
 ctx.beginPath();
-ctx.moveTo(0, y)
-ctx.lineTo(500, 15)
+ctx.moveTo(50, y)
+ctx.lineTo(550, 15)
 ctx.stroke();
 
 //Lage kule 1
@@ -63,8 +63,8 @@ var ctx = c.getContext("2d");
 
 //Laget linje 5
 ctx.beginPath();
-ctx.moveTo(0, y)
-ctx.lineTo(500, 15)
+ctx.moveTo(50, y)
+ctx.lineTo(550, 15)
 ctx.stroke();
 
 //Lage kule 1

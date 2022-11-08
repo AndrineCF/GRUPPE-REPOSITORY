@@ -5,8 +5,8 @@ var ctx=c.getContext("2d");
 
 //Laget linje 2
 ctx.beginPath();
-ctx.moveTo(0,y)
-ctx.lineTo(500,15)
+ctx.moveTo(50, y)
+ctx.lineTo(550, 15)
 ctx.stroke();
 
 //Lage kule 1 i linje 2
@@ -32,7 +32,7 @@ ctx.fill();
 
 //Lage kule 4 i linje 2
 ctx.beginPath();
-ctx.arc(25, y, radius, 0, 2 * Math.PI);
+ctx.arc(50, y, radius, 0, 2 * Math.PI);
 ctx.stroke();
 ctx.fillStyle = "black";
 ctx.fill(); 
@@ -57,8 +57,8 @@ var ctx=c.getContext("2d");
 
 //Laget linje 3
 ctx.beginPath();
-ctx.moveTo(0,y)
-ctx.lineTo(500,15)
+ctx.moveTo(50, y)
+ctx.lineTo(550, 15)
 ctx.stroke();
 
 //Lage kule 1 i linje 3
