@@ -1,0 +1,40 @@
+.centreForm {
+    text-align: center;
+}
+
+  
+  input[type="range"] {
+    width: 400px;
+    margin: 0;
+  }
+  
+
+.slider-container {
+    display: flex;
+    margin: 15px;
+    width: auto;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+#form {
+    text-align: center;
+    background-color: bisque;
+    margin: 0 auto;
+    height: 500px;
+}
+
+label {
+    display: block;
+    width: 300px;
+}
+
+.output {
+    width: auto;
+    margin: 0 auto;
+    background-color: bisque;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
