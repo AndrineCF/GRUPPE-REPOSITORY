@@ -30,6 +30,26 @@ ctx.stroke();
 ctx.fillStyle = "red";
 ctx.fill(); 
 
+//Lage kule 4 i linje 2
+ctx.beginPath();
+ctx.arc(25, y, radius, 0, 2 * Math.PI);
+ctx.stroke();
+ctx.fillStyle = "black";
+ctx.fill(); 
+
+//Lage kule 5 i linje 2
+ctx.beginPath();
+ctx.arc(120, y, radius, 0, 2 * Math.PI);
+ctx.stroke();
+ctx.fillStyle = "pink";
+ctx.fill(); 
+
+//Lage kule 5 i linje 2
+ctx.beginPath();
+ctx.arc(250, y, radius, 0, 2 * Math.PI);
+ctx.stroke();
+ctx.fillStyle = "purple";
+ctx.fill(); 
 
 //henter linje 3
 var c=document.getElementById("Linje3")
@@ -60,6 +80,27 @@ ctx.beginPath();
 ctx.arc(440, y, radius, 0, 2 * Math.PI);
 ctx.stroke();
 ctx.fillStyle = "red";
+ctx.fill(); 
+
+//Lage kule 4 i linje 3
+ctx.beginPath();
+ctx.arc(90, y, radius, 0, 2 * Math.PI);
+ctx.stroke();
+ctx.fillStyle = "black";
+ctx.fill(); 
+
+//Lage kule 5 i linje 3
+ctx.beginPath();
+ctx.arc(70, y, radius, 0, 2 * Math.PI);
+ctx.stroke();
+ctx.fillStyle = "pink";
+ctx.fill(); 
+
+//Lage kule 5 i linje 3
+ctx.beginPath();
+ctx.arc(450, y, radius, 0, 2 * Math.PI);
+ctx.stroke();
+ctx.fillStyle = "purple";
 ctx.fill(); 
 
 
