@@ -1,12 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
+<html lang="no-NB">
+<head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>WEB FORM</title>
-  </head>
-  <body>
-
-  </body>
+    <style>
+        .centreForm {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<form>
+    <div class="centreForm">
+        <!--Janis sine spørsmål start-->
+        <div>
+            <label for="wakeupTime">Early bird</label>
+            <input type="range" name="wakeupTime" min="1" max="100" id="wakeupTime">
+            <label for="wakeupTime">Night owl</label>
+        </div>
+        <div>
+            <label for="workTogether">Work on it together</label>
+            <input type="range" name="WorkTogether" min="1" max="100" id="workTogether">
+            <label for="workTogether">Go off alone and think</label>
+        </div>
+        <div>
+            <label for="backStory">Tell me the backstory</label>
+            <input type="range" name="backStory" min="1" max="100" id="backStory">
+            <label for="backStory">Cut to the chase</label>
+        </div>
+        <div>
+            <label for="talkItOut">Need to talk it out</label>
+            <input type="range" name="talkItOut" min="1" max="100" id="talkItOut">
+            <label for="talkItOut">Need to move on</label>
+        </div>
+        <div>
+            <label for="Processor">Verbal processor</label>
+            <input type="range" name="Processor" min="1" max="100" id="Processor">
+            <label for="Processor">Mental processor</label>
+        </div>
+        <div>
+            <label for="Schedule">Schedule a time to chat</label>
+            <input type="range" name="Schedule" min="1" max="100" id="Schedule">
+            <label for="Schedule">Interrupt me when you need me</label>
+        </div>
+        <div>
+            <label for="chatting">Video chat</label>
+            <input type="range" name="chatting" min="1" max="100" id="chatting">
+            <label for="chatting">Slack/text</label>
+        </div>
+        <div>
+            <label for="workTime">09-17</label>
+            <input type="range" name="workTime" min="1" max="100" id="workTime">
+            <label for="workTime">I have no set schedule</label>
+        </div>
+        <!--Slutt på jani sine spørsmål-->
+        <!--Start egne spørsmål-->
+        <div>
+            <label for="planning"> Planner</label>
+            <input type="range" name="planning" min="1" max="100" id="planning">
+            <label for="planning">Last minute</label>
+        </div>
+        <div>
+            <button onclick="myBtn()" type="button">Submit</button>
+        </div>
+    </div>
+</form>
+<p id="output"></p>
+<script src="script.js"></script>
+</body>
 </html>
