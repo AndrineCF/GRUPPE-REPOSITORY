@@ -27,4 +27,15 @@ function myBtn() {
     console.log(jsonString)
 
     output.innerText = jsonString
+
+    fetch('https://bacit.info/', {
+    method: 'POST',
+    headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({ "id": jsonString })
+})
+.then(response => response.json())
+.then(response => alert(JSON.stringify(response)))
 }
