@@ -1,0 +1,11 @@
+.canvas {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: lightgray;  
+}
+
+
+
