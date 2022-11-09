@@ -2,10 +2,11 @@
 // Gir "Submit knappen" funksjon når man trykker på knappen fra "WEB-Form.html"
 function myBtn() {
 
+// Angitt de to kategoriene til variabel og angitt navninformasjon, hentet id fra WEB.Form.html
     var name = document.getElementById("firstName").value
     var lastname = document.getElementById("lastName").value
 
-// Angitt alle kategoriene til variabler, sliderinformasjonen og verdi
+// Angitt alle kategoriene til variabler, sliderinformasjonen og verdi, WEB.Form.html
     var morningTime = document.getElementById("wakeupTime").value
     var workTogeth = document.getElementById("workTogether").value
     var story = document.getElementById("backStory").value
