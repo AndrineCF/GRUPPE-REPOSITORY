@@ -1,5 +1,11 @@
+
+// Gir "Submit knappen" funksjon når man trykker på knappen fra "WEB-Form.html"
 function myBtn() {
 
+    var name = document.getElementById("firstName").value
+    var lastname = document.getElementById("lastName").value
+
+// Angitt alle kategoriene til variabler, sliderinformasjonen og verdi
     var morningTime = document.getElementById("wakeupTime").value
     var workTogeth = document.getElementById("workTogether").value
     var story = document.getElementById("backStory").value
@@ -9,10 +15,12 @@ function myBtn() {
     var interaction = document.getElementById("chatting").value
     var workTime = document.getElementById("workTime").value
     var plan = document.getElementById("planning").value
-    
 
-    
+
+// Samlet alt under en variabel for å stringify
     var formData = {};
+    formData['firstName'] = name;
+    formData['lastName'] = lastname;
     formData['planning'] = plan;
     formData['workTime'] = workTime
     formData['chatting'] = interaction
@@ -22,12 +30,11 @@ function myBtn() {
     formData['backStory'] = story
     formData['workTogether'] = workTogeth
     formData['wakeupTime'] = morningTime
-
+// Gjorde jsString til en variabel som er koblet formdata
     var jsonString = JSON.stringify(formData);
-    console.log(jsonString)
-
+// Får i vise resultatet fra slider informasjonen
     output.innerText = jsonString
-
+// For å sende informasjonen til bacit.info serveren
     fetch('https://bacit.info/', {
     method: 'POST',
     headers: {
