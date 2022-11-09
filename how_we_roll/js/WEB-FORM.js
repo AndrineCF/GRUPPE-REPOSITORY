@@ -34,7 +34,7 @@ function myBtn() {
         'Accept': 'application/json',
         'Content-Type': 'application/json'
     },
-    body: JSON.stringify({ "id": jsonString })
+    body: JSON.stringify({ jsonString })
 })
 .then(response => response.json())
 .then(response => alert('Your id for the bacit.info post is: ' + response.time + '-' + response.trxid + '\n\nDetails: \n' + JSON.stringify(response)))
