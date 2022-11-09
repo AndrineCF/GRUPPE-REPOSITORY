@@ -18,6 +18,8 @@ function myBtn() {
     var interaction = document.getElementById("chatting").value
     var workTime = document.getElementById("workTime").value
     var plan = document.getElementById("planning").value
+    var stress = document.getElementById("stress").value
+    var meetingLoc = document.getElementById("meetingLoc").value
 
 
 // Samlet alt under en variabel for å stringify
@@ -34,6 +36,8 @@ function myBtn() {
     formData['backStory'] = story
     formData['workTogether'] = workTogeth
     formData['wakeupTime'] = morningTime
+    formData['stress'] = stress
+    formData['meetingLoc'] = meetingLoc
 // Gjorde jsString til en variabel som er koblet formdata
     var jsonString = JSON.stringify(formData);
 // Får i vise resultatet fra slider informasjonen
