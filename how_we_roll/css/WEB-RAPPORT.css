@@ -1,11 +1,32 @@
+body { 
+    background: linear-gradient(180deg, #FFA740 0%, rgba(103, 16, 103, 0) 100%), #4E018A;
+    height: 100vh
+}
 .canvas {
+    position: absolute;
+    top: 200px;
+    left: 300px;
     display: flex;
     flex-direction: column;
     width: 650px;
     margin: 0 auto;
     padding: 10px;
-    background-color: lightgray;  
+    background-color:transparent
 }
-
+h1 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 550px;
+    top: 1px;
+    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 116px;
+    
+    color: #FFFFFF; 
+}
 
 
