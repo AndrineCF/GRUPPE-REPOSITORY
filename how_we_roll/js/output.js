@@ -17,8 +17,8 @@ function lageSirkel(ctx, prosent, farge) {
 }
 
 //Henter linje 1
-var c=document.getElementById("Linje1")
-var ctx=c.getContext("2d");
+var c = document.getElementById("Linje1")
+var ctx = c.getContext("2d");
 
 //Laget linje 1
 ctx.beginPath();
@@ -35,19 +35,19 @@ ctx.fill();
 
 //Lage kule 2
 ctx.beginPath();
-ctx.arc(300,y,radius,0,2* Math.PI);
+ctx.arc(300, y, radius, 0, 2 * Math.PI);
 ctx.stroke();
-ctx.fillStyle="blue";
+ctx.fillStyle = "blue";
 ctx.fill();
 
 // Linje 6
-var c=document.getElementById("Linje6")
-var ctx=c.getContext("2d");
+var c = document.getElementById("Linje6")
+var ctx = c.getContext("2d");
 
 //Laget linje 1
 ctx.beginPath();
-ctx.moveTo(50,y)
-ctx.lineTo(550,15)
+ctx.moveTo(50, y)
+ctx.lineTo(550, 15)
 ctx.stroke();
 
 //Lage kule 1
@@ -73,8 +73,8 @@ lageSirkel(ctx, 15, "black")
 
 
 //henter linje 2
-var c=document.getElementById("Linje2")
-var ctx=c.getContext("2d");
+var c = document.getElementById("Linje2")
+var ctx = c.getContext("2d");
 
 //Laget linje 2
 ctx.beginPath();
@@ -104,10 +104,10 @@ lageSirkel(ctx, 11, "purple")
 lageSirkel(ctx, 31, "black")
 
 //henter linje 3
-var c=document.getElementById("Linje3")
-var ctx=c.getContext("2d");
+var c = document.getElementById("Linje3")
+var ctx = c.getContext("2d");
 
-//Laget linje 2
+//Laget linje 3
 ctx.beginPath();
 ctx.moveTo(50, y)
 ctx.lineTo(550, 15)
@@ -154,13 +154,13 @@ lageSirkel(ctx, 20, "black")
 
 
 // Linje 7
-var c=document.getElementById("Linje7")
-var ctx=c.getContext("2d");
+var c = document.getElementById("Linje7")
+var ctx = c.getContext("2d");
 
-//Laget linje 1
+//Laget linje
 ctx.beginPath();
-ctx.moveTo(50,y)
-ctx.lineTo(550,15)
+ctx.moveTo(50, y)
+ctx.lineTo(550, 15)
 ctx.stroke();
 
 //Lage kule 1
@@ -183,3 +183,67 @@ lageSirkel(ctx, 1, "purple")
 
 //Lage kule 7
 lageSirkel(ctx, 51, "black")
+
+var c = document.getElementById("Linje4")
+var ctx = c.getContext("2d");
+
+//Laget linje 4
+ctx.beginPath();
+ctx.moveTo(50, y)
+ctx.lineTo(550, 15)
+ctx.stroke();
+
+//Lage kule 1
+lageSirkel(ctx, 50, "#00FFF0")
+
+//Lage kule 2
+lageSirkel(ctx, 80, "blue")
+
+//Lage kule 3
+lageSirkel(ctx, 30, "red")
+
+//Lage kule 4
+lageSirkel(ctx, 65, "green")
+
+//Lage kule 5
+lageSirkel(ctx, 90, "pink")
+
+//Lage kule 6
+lageSirkel(ctx, 40, "purple")
+
+//Lage kule 7
+lageSirkel(ctx, 10, "black")
+
+
+
+
+var c = document.getElementById("Linje5")
+var ctx = c.getContext("2d");
+
+//Laget linje 5
+ctx.beginPath();
+ctx.moveTo(50, y)
+ctx.lineTo(550, 15)
+ctx.stroke();
+
+//Lage kule 1
+lageSirkel(ctx, 60, "#00FFF0")
+
+//Lage kule 2
+lageSirkel(ctx, 80, "blue")
+
+//Lage kule 3
+lageSirkel(ctx, 40, "red")
+
+//Lage kule 4
+lageSirkel(ctx, 70, "green")
+
+//Lage kule 5
+lageSirkel(ctx, 55, "pink")
+
+//Lage kule 6
+lageSirkel(ctx, 99, "purple")
+
+//Lage kule 7
+lageSirkel(ctx, 10, "black")
+
