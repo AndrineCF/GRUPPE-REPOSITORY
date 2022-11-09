@@ -4,14 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--link til CSS dokument for styling-->
     <link rel="stylesheet" href="./css/WEB-FORM.css">
     <title>WEB FORM</title>
 
 </head>
 <body>
 <form>
+    <!--CSS klasse for sentrering av labels og intput på websiden-->
     <div class="centreForm">
         <!--Janis sine spørsmål start-->
+        <!--Lagd 2 labels med range imellom med navn og ID slik javascript kan hente informasjonen i max og min range.
+        slider-container klasse for å gjøre siden mer fleksibel og-->
         <div class="slider-container">
 
             <label for="wakeupTime">Early bird</label>
@@ -53,18 +57,21 @@
             <input type="range" name="workTime" min="1" max="100" id="workTime">
             <label for="workTime">I have no set schedule</label>
         </div>
-        <!--Slutt på jani sine spørsmål-->
+        <!--Slutt på Janis sine spørsmål-->
         <!--Start egne spørsmål-->
         <div class="slider-container">
             <label for="planning"> Planner</label>
             <input type="range" name="planning" min="1" max="100" id="planning">
             <label for="planning">Last minute</label>
         </div>
+        <!--Slutt egne spørsmål-->
+        <!--button så har en funskjon som er koblet til javascript WEB-FORM.js-->
         <div>
             <button onclick="myBtn()" type="button">Submit</button>
         </div>
     </div>
 </form>
+<!--output for å få ut info fra range inputs og se hva som kommer.-->
 <p id="output"></p>
 <script src="./js/WEB-FORM.js"></script>
 </body>
