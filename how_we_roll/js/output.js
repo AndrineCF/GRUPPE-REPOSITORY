@@ -72,6 +72,79 @@ lageSirkel(ctx, 99, "purple")
 lageSirkel(ctx, 15, "black")
 
 
+//henter linje 2
+var c=document.getElementById("Linje2")
+var ctx=c.getContext("2d");
+
+//Laget linje 2
+ctx.beginPath();
+ctx.moveTo(50, y)
+ctx.lineTo(550, 15)
+ctx.stroke();
+
+//Lage kule 1
+lageSirkel(ctx, 5, "#00FFF0")
+
+//Lage kule 2
+lageSirkel(ctx, 97, "blue")
+
+//Lage kule 3
+lageSirkel(ctx, 50, "red")
+
+//Lage kule 4
+lageSirkel(ctx, 56, "green")
+
+//Lage kule 5
+lageSirkel(ctx, 40, "pink")
+
+//Lage kule 6
+lageSirkel(ctx, 11, "purple")
+
+//Lage kule 7
+lageSirkel(ctx, 31, "black")
+
+//henter linje 3
+var c=document.getElementById("Linje3")
+var ctx=c.getContext("2d");
+
+//Laget linje 2
+ctx.beginPath();
+ctx.moveTo(50, y)
+ctx.lineTo(550, 15)
+ctx.stroke();
+
+//Lage kule 1
+lageSirkel(ctx, 90, "#00FFF0")
+
+//Lage kule 2
+lageSirkel(ctx, 9, "blue")
+
+//Lage kule 3
+lageSirkel(ctx, 40, "red")
+
+//Lage kule 4
+lageSirkel(ctx, 84, "green")
+
+//Lage kule 5
+lageSirkel(ctx, 30, "pink")
+
+//Lage kule 6
+lageSirkel(ctx, 60, "purple")
+
+//Lage kule 7
+lageSirkel(ctx, 20, "black")
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
