@@ -1,6 +1,9 @@
-body { 
+body {
     background: linear-gradient(180deg, #FFA740 0%, rgba(103, 16, 103, 0) 100%), #4E018A;
-    height: 100vh
+    height: 100%;
+    color: white;
+    font-size: 19px;
+    font-family: 'Fragment Mono', monospace;
 }
 
 /* 
@@ -17,12 +20,12 @@ body {
 @selects <input type="range">
 @description: Gir slideren en bredde og nul margin i x-rettning
 */
-  
-  input[type="range"] {
+
+input[type="range"] {
     width: 400px;
     margin: 0;
-  }
-  
+}
+
 
 /* 
 @selects class="slider-container"
@@ -36,6 +39,13 @@ body {
     justify-content: space-between;
 }
 
+.textbox-container {
+    display: 100px;
+    margin: 15px;
+    width: 500px;
+    padding: 50px;
+}
+
 /* 
 @selects <label>
 @description: Gir labelen en block display, og en bredde på 300px. Gjordt slik for å kunne plassere tekst elementene uten at teksten går på neste linje eller at slideren blir mindre/større pga. tekst lengde.
@@ -45,5 +55,13 @@ label {
     display: block;
     width: 300px;
 }
-
-
+.submitB {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+}
