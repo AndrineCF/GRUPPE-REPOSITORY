@@ -1,6 +1,6 @@
 body {
     background: linear-gradient(180deg, #FFA740 0%, rgba(103, 16, 103, 0) 100%), #4E018A;
-    height: 100vh;
+    height: 100%;
     color: white;
     font-size: 19px;
     font-family: 'Fragment Mono', monospace;

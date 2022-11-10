@@ -41,6 +41,7 @@ function myBtn() {
 // Gjorde jsString til en variabel som er koblet formdata
     var jsonString = JSON.stringify(formData);
 // Får i vise resultatet fra slider informasjonen
+    var output = document.getElementById("output")
     output.innerText = jsonString
 // For å sende informasjonen til bacit.info serveren
     fetch('https://bacit.info/', {
