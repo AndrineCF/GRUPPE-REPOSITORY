@@ -16,7 +16,7 @@
 <body>
     <form>
         <!--CSS klasse for sentrering av labels og intput på websiden-->
-        <div class="centreForm">
+        <div>
             <!--Janis sine spørsmål start-->
             <!--Lagd 2 labels med range imellom med navn og ID slik javascript kan hente informasjonen i max og min range.
         slider-container klasse for å gjøre siden mer fleksibel og-->
@@ -92,8 +92,8 @@
             </div>
             <!--Slutt egne spørsmål-->
             <!--button så har en funskjon som er koblet til javascript WEB-FORM.js-->
-            <div>
-                <button onclick="myBtn()" type="button">Submit</button>
+            <div class="centreForm">
+                <button class="submitB" onclick="myBtn()" type="button">Submit</button>
             </div>
         </div>
     </form>
