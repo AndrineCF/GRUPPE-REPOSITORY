@@ -40,7 +40,10 @@ input[type="range"] {
 }
 
 .textbox-container {
-    text-align: center;
+    display: 100px;
+    margin: 15px;
+    width: 500px;
+    padding: 50px;
 }
 
 /* 
