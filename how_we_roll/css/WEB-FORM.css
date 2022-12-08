@@ -8,8 +8,13 @@ body {
 h1 { 
     position: center
     
-
 }
+.text-container{
+    text-align: center;
+    position: relative;
+    }
+
+
 
 /* 
 @selects class="centreForm"
@@ -37,6 +42,7 @@ input[type="range"] {
 @description: Gjør elementet om til en flexbox, med en x margin på 15px, bredden er automatisk basert på boks bredden, og mellomrommet mellom elementet og kanten av boksen er 10px. Klassen har justify content space-bretween for å spre mellomrommet jevnt mellom sliderene.
 */
 .slider-container {
+    color: white;
     display: flex;
     margin: 15px;
     width: auto;
