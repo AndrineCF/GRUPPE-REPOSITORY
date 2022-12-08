@@ -144,10 +144,18 @@ function myBtn() {
         formData['wakeupTime'] = morningTime
         formData['stress'] = stress
         formData['meetingLoc'] = meetingLoc
+
+        
+        console.log(formData)
     // Gjorde jsString til en variabel som er koblet formdata
         var jsonString = JSON.stringify(formData);
     // Får i vise resultatet fra slider informasjonen
         output.innerText = jsonString
+
+        console.log(jsonString)
+
+        console.assert(formData = jsonString, "Something is wrong")
+        
     // For å sende informasjonen til bacit.info serveren
         fetch('https://bacit.info/', {
         method: 'POST',
@@ -160,6 +168,8 @@ function myBtn() {
     .then(response => response.json())
     .then(response => alert('Your id for the bacit.info post is: ' + response.time + '-' + response.trxid + '\n\nDetails: \n' + JSON.stringify(response)))
     }
+
+    
 </script>
 
 </body>
