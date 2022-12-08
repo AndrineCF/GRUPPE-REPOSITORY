@@ -5,6 +5,11 @@ body {
     font-size: 19px;
     font-family: 'Fragment Mono', monospace;
 }
+h1 { 
+    position: center
+    
+
+}
 
 /* 
 @selects class="centreForm"
