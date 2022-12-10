@@ -4,7 +4,7 @@ body {
 }
 .canvas {
     position: absolute;
-    top: 200px;
+    top: 325px;
     left: 300px;
     display: flex;
     flex-direction: column;
@@ -27,6 +27,111 @@ h1 {
     line-height: 116px;
     
     color: #FFFFFF; 
+}
+p {
+  position: absolute;
+    width: 10px;
+    height: 50px;
+    left: 330px;
+    top: 135px;
+    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 116px;
+    
+    color: blue; 
+}
+p2 {
+  position: absolute;
+  width: 10px;
+  height: 50px;
+  left: 520px;
+  top: 160px;
+  
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 116px;
+  
+  color: green; 
+}
+p3 {
+  position: absolute;
+  width: 10px;
+  height: 50px;
+  left: 675px;
+  top: 160px;
+  
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 116px;
+
+  color: black;
+}
+p4 {
+  position: absolute;
+  width: 10px;
+  height: 50px;
+  left: 875px;
+  top: 160px;
+  
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 116px;
+
+  color: beige;
+}
+p5 {
+  position: absolute;
+  width: 10px;
+  height: 50px;
+  left: 435px;
+  top: 220px;
+  
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 116px;
+
+  color: purple;
+}
+p6 {
+  position: absolute;
+  width: 10px;
+  height: 50px;
+  left: 600px;
+  top: 220px;
+  
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 116px;
+
+  color: turquoise;
+}
+p7 {
+  position: absolute;
+  width: 10px;
+  height: 50px;
+  left: 790px;
+  top: 220px;
+  
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 116px;
+
+  color: red;
 }
 .button {
     border: none;
