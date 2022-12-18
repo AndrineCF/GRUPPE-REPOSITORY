@@ -11,12 +11,28 @@ h1 {
     position: center
     
 
+/*
+@selects class="firstName-text-container" and "lastName-text-container
+@description: Senterer fornavn og etternavn boksene ved siden hverandre   
+
+*/
+
+}
+.firstName-text-container{
+    float:left;
+  padding:38px;
+  margin-left: 570px;
+  padding-right: 0px;
+  margin-right: 0px;
     
 }
-.text-container{
-    position: relative;
-    text-align: center
-    
+
+.lastName-text-container{
+    float:right;
+  padding:38px;
+  margin-right: 482px;
+  padding-left: 0px;
+  margin-left: 0px;
 }
 
 
