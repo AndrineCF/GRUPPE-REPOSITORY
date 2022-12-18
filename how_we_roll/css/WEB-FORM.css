@@ -51,7 +51,7 @@ input[type="range"] {
     margin: 15px;
     width: auto;
     padding: 10px;
-    justify-content: space-between;
+    justify-content: space-evenly;
     color: white;
     
 }
