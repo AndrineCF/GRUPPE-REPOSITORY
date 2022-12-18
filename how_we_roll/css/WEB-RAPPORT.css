@@ -33,7 +33,7 @@ p {
     width: 10px;
     height: 50px;
     left: 330px;
-    top: 135px;
+    top: 65px;
     
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: normal;
@@ -48,7 +48,7 @@ p2 {
   width: 10px;
   height: 50px;
   left: 520px;
-  top: 160px;
+  top: 90px;
   
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-style: normal;
@@ -63,7 +63,7 @@ p3 {
   width: 10px;
   height: 50px;
   left: 675px;
-  top: 160px;
+  top: 90px;
   
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-style: normal;
@@ -78,7 +78,7 @@ p4 {
   width: 10px;
   height: 50px;
   left: 875px;
-  top: 160px;
+  top: 90px;
   
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-style: normal;
@@ -93,7 +93,7 @@ p5 {
   width: 10px;
   height: 50px;
   left: 435px;
-  top: 220px;
+  top: 135px;
   
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-style: normal;
@@ -108,7 +108,7 @@ p6 {
   width: 10px;
   height: 50px;
   left: 600px;
-  top: 220px;
+  top: 135px;
   
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-style: normal;
@@ -123,7 +123,7 @@ p7 {
   width: 10px;
   height: 50px;
   left: 790px;
-  top: 220px;
+  top: 135px;
   
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-style: normal;
@@ -132,6 +132,34 @@ p7 {
   line-height: 116px;
 
   color: red;
+}
+p8 {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  left: 145px;
+  top: 200px;
+  
+white-space: pre;
+  line-height: 3;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: normal;
+  font-size: 14px;
+color: white;
+}
+p9 {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  left: 950px;
+  top: 200px;
+  
+white-space: pre;
+  line-height: 3;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: normal;
+  font-size: 14px;
+color: white;
 }
 .button {
     border: none;
