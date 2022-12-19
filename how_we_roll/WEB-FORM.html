@@ -21,6 +21,9 @@
             <!--Janis sine spørsmål start-->
             <!--Lagd 2 labels med range imellom med navn og ID slik javascript kan hente informasjonen i max og min range.
         slider-container klasse for å gjøre siden mer fleksibel og-->
+        <div>
+            <button class="button-home" onclick="location.href='./index.html';">Home</button>
+        </div>
             <div class="firstName-text-container">
                 <label for="firstName">Fornavn</label>
                 <input type="text" id="firstName">
@@ -162,8 +165,6 @@ function myBtn() {
     .then(response => alert('Your id for the bacit.info post is: ' + response.time + '-' + response.trxid + '\n\nDetails: \n' + JSON.stringify(response)))
     }
 </script>
-
-<button class="button button1" onclick="location.href='./index.html';">Home</button>
 
 </body>
 
