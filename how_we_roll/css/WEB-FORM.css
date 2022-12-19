@@ -21,18 +21,14 @@ h1 {
 .firstName-text-container{
     float:left;
   padding:38px;
-  margin-left: 570px;
-  padding-right: 0px;
-  margin-right: 0px;
+  margin-left: 270px;
     
 }
 
 .lastName-text-container{
     float:right;
   padding:38px;
-  margin-right: 482px;
-  padding-left: 0px;
-  margin-left: 0px;
+  margin-right: 382px;
 }
 
 
