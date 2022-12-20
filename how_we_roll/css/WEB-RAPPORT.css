@@ -197,24 +197,3 @@ color: white;
   width: 100%;
   height: 100%;
 }
-
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 10vh;
-  border: solid;
-  border-top-width: 1px;
-  border-bottom-width: 0px;
-  border-left-width: 0px;
-  border-right-width: 0px;
-  border-color: white;
-}
-
-.footer-text {
-  color: white;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  text-align: center;
-  font-size: 19px;
-}
