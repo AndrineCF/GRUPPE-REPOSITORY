@@ -14,36 +14,44 @@
 </head>
 
 <body>
-    <h1>Answer the questions below</h1>
+    <div class="title-row">
+    <h1 style="text-align: center;">Answer the questions below</h1>
+    <div style="display: inline-block; margin: auto;">
 
-    <div>
-        <a href="./index.html">
-        <button class="button-home">Home</button>
-        </a>
+        <button class="button button1" onclick="javascript:location.href='./index.html'"
+        >Home</button>
+
     </div>
-    
+    </div>
+
     <form>
-        <!--CSS klasse for sentrering av labels og intput på websiden-->
-        <div>
-            <!--Janis sine spørsmål start-->
+        <!--Text og nummer form delen av skjemaet-->
+
+            <div class="question-container">
+                <p>What is your name?</p>
+                <div class="text-input-container">
+                    <p>First name</p> 
+                    <input id="firstName" type="text">
+                </div>
+                <div class="text-input-container">
+                    <p>Last name</p> 
+                    <input id="lastName" type="text">
+                </div>
+            </div>
+
+            <div class="question-container-age">
+                <p>How old are you?</p>
+                <div class="text-input-container">
+                    <input id="age" type="number">
+                </div>
+            </div>
+
+
+      
+         <!--Janis sine spørsmål start-->
             <!--Lagd 2 labels med range imellom med navn og ID slik javascript kan hente informasjonen i max og min range.
         slider-container klasse for å gjøre siden mer fleksibel og-->
 
-
-            <div class="firstName-text-container">
-      
-            <div class="text-container">
-                <label for="firstName">Fornavn</label>
-                <input type="text" id="firstName">
-            </div>
-            <div class="lastName-text-container">
-                <label for="lastName">Etternavn</label>
-                <input type="text" id="lastName">
-            </div>
-            <div class="age-text-container">
-                <label for="age">Alder</label>
-                <input type="number" name="age" id="age" min="1" max="200">
-            </div>
             <div class="slider-container">
 
                 <label for="wakeupTime">Early bird</label>
@@ -107,7 +115,7 @@
             <div class="centreForm">
                 <button class="submitB" onclick="myBtn()" type="button">Submit</button>
             </div>
-        </div>
+
     </form>
     <!--output for å få ut info fra range inputs og se hva som kommer.-->
     <div id="output">

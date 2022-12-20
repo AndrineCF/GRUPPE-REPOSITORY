@@ -5,31 +5,62 @@ body {
     font-size: 19px;
     font-family: 'Fragment Mono', monospace;
 }
+
 h1 { 
     font-size: 50px;
     font-family: 'Fragment Mono', monospace;
     position: center
     
 
-/*
-@selects class="firstName-text-container" and "lastName-text-container
-@description: Senterer fornavn og etternavn boksene ved siden hverandre   
+}
+
+
+/* 
+@selects class="text-input-container"
+@description: legger texten og input feltet på samme rad, og gir rom i mellom
 
 */
 
-}
-.firstName-text-container{
-    float:left;
-  padding:38px;
-  margin-left: 270px;
-    
+.text-input-container {
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 400px;
 }
 
-.lastName-text-container{
-    float:right;
-  padding:38px;
-  margin-right: 382px;
+
+/* 
+@selects class="question-container-age"
+@description: gir rom mellom elementene i classen
+
+*/
+
+.question-container-age {
+    display: flex;
+    margin-left: 605px;
+    width: 500px;
+    padding: 10px;
+    justify-content: space-evenly;
+    flex-direction: row;
 }
+
+
+/* 
+@selects class="question-container"
+@description: plaserer hele text + input delen av skjemat i midten og gir rom mellom elementene
+
+*/
+
+.question-container {
+    display: flex;
+    margin: 15px;
+    width: auto;
+    padding: 10px;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
 
 
 
@@ -41,7 +72,6 @@ h1 {
 .centreForm {
     text-align: center;
 }
-
 
 /* 
 @selects <input type="range">
@@ -86,27 +116,21 @@ label {
     width: 300px;
 }
 
+/*
+Submit knapp for formen
+*/
+
 .submitB {
- /*
-  background-color: #b9b8b84d; /* Green */
-  color: white;
+
+  color: rgba(255,255,255,1);
+  background-color: rgba(128,128,128,0.5);
   border: none;
-  padding: 15px 32px;
+  padding: 15px 100px;
   text-align: center;
   display: inline-block;
   font-size: 16px;
-  border-radius: 8px;
-  */
-
-    background-color: #4CAF50;
-    /* Green */
-    color: white;
-    border: none;
-    padding: 15px 32px;
-    text-align: center;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 8px;
+  font-family: 'Fragment Mono', monospace;
+  border-radius: 30px;
 
 }
 
@@ -114,22 +138,32 @@ label {
 @hjemknapp på web-form
 */
 
-.button-home {
+.button {
     border: none;
     color: white;
     padding: 16px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: block;
     font-size: 16px;
-    margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
-background-color: transparent;
+}
+
+.button1 {
+  background-color: transparent;
   color: black;
   border: 2px solid #4CAF50;
   border-width: thick;
-  position: absolute;
-  top: 50px;
-  left: 1300px;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.title-row {
+    display: flex;
+    align-content: space-between;
+    flex-direction: column;
 }
