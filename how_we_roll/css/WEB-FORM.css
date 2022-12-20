@@ -38,10 +38,10 @@ h1 {
 
 .question-container-age {
     display: flex;
-    margin-left: 605px;
-    width: 500px;
+    margin-left: 15vw;
+    width: 400px;
     padding: 10px;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-direction: row;
 }
 
@@ -79,7 +79,7 @@ h1 {
 */
 
 input[type="range"] {
-    width: 400px;
+    width: 30vw;
     margin: 0;
 }
 
@@ -174,7 +174,6 @@ Submit knapp for formen
 
 .slider {
     -webkit-appearance: none;
-    width: 400px;
     height: 2px;
     margin: 0px;
     background: #000000;
