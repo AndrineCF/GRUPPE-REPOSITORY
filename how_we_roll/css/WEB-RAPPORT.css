@@ -4,36 +4,29 @@ body {
 }
 .canvas {
     position: absolute;
-    top: 325px;
+    top: 19.5vh;
     left: 300px;
     display: flex;
     flex-direction: column;
+    height: 450px;
     width: 650px;
     margin: 0 auto;
-    padding: 10px;
-    background-color:transparent
+    padding: 0px;
+    background-color:transparent;
+    justify-content: space-between;
 }
 h1 {
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    left: 550px;
-    top: 1px;
-    
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 50px;
-    line-height: 116px;
-    
-    color: #FFFFFF; 
+  font-size: 50px;
+  color: white;
+  font-family: 'Fragment Mono', monospace;
+  position: center
 }
 p {
   position: absolute;
     width: 10px;
     height: 50px;
     left: 330px;
-    top: 65px;
+    top: 62.5px;
     
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: normal;
@@ -161,43 +154,61 @@ white-space: pre;
   font-size: 14px;
 color: white;
 }
-.button {
-    border: none;
-    color: white;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
 
+/*
+@hjemknapp på web-form
+*/
+
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 120px;
+  height: 80px;
 }
+
 .button1 {
   background-color: transparent;
   color: black;
   border: 2px solid #4CAF50;
   border-width: thick;
-  position: absolute;
-  top: 50px;
-  left: 1300px;
 }
+
 .button1:hover {
   background-color: #4CAF50;
   color: white;
 }
+
 .button2 {
-    background-color: transparent;
-    color: black;
-    border: 2px solid #008CBA;
-    border-width: thick;
-  position: absolute;
-  top: 50px;
-  left: 1100px;
-  }
+  background-color: transparent;
+  color: black;
+  border: 2px solid #008CBA;
+  border-width: thick;
+}
   
 .button2:hover {
-    background-color: #008CBA;
-    color: white;
-  }
+  background-color: #008CBA;
+  color: white;
+}
+
+/*Title rad posisjonering*/
+
+.title-row {
+  display: flex;
+  align-content: space-between;
+  flex-direction: column;
+  text-align: center;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-left: 32vw;
+}

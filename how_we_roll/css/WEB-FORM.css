@@ -162,6 +162,8 @@ Submit knapp for formen
   color: white;
 }
 
+/*Title rad posisjonering*/
+
 .title-row {
     display: flex;
     align-content: space-between;

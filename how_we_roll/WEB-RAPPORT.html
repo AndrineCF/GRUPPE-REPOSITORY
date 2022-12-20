@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <h1>Sliders</h1>
     <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fragment+Mono&display=swap" rel="stylesheet">
@@ -12,8 +11,21 @@
     <title>WEB RAPPORT</title>
     <!-- Laget canvaselementer til slidersene-->
   </head>
+
   <body>
+    <div class="title-row">
     <h1>Results</h1>
+    <div style="display: flex; flex-direction: row; justify-content: space-evenly;">
+    <button class="button button1" onclick="location.href='./index.html';">Home</button>
+    <button class="button button2" onclick="location.href='./WEB-FORM.html';">Go back</button>
+  </div>
+    <h1>Sliders</h1>
+  </div>
+
+
+<div class="container">
+
+<div class="flex">
     <p>Joakim</p>
     <p2>Felix</p2>
     <p3>Andrine</p3>
@@ -21,7 +33,9 @@
     <p5>Gabriel</p5>
     <p6>Steinar</p6>
     <p7>Rune</p7>
+</div>
 
+<div class="flex">
    <p8> 
       Early bird
       Work on it togheter
@@ -35,6 +49,8 @@
       Stressed
       Digital meeting
     </p8>
+  
+
     <p9>
       Night Owl
       Go off alone and think
@@ -49,6 +65,8 @@
       Physical meeting
     </p9>
 
+  </div>
+
     <div class="canvas">
       <canvas id="Linje1" width="600" height="30"></canvas>
       <canvas id="Linje2" width="600" height="30"></canvas>
@@ -57,14 +75,15 @@
       <canvas id="Linje5" width="600" height="30"></canvas>
       <canvas id="Linje6" width="600" height="30"></canvas>
       <canvas id="Linje7" width="600" height="30"></canvas>
+      <canvas id="Linje8" width="600" height="30"></canvas>
+      <canvas id="Linje9" width="600" height="30"></canvas>
+      <canvas id="Linje10" width="600" height="30"></canvas>
+      <canvas id="Linje11" width="600" height="30"></canvas>
     </div>
-    
-    
 
-<button class="button button1" onclick="location.href='./index.html';">Home</button>
-    <button class="button button2" onclick="location.href='./WEB-FORM.html';">Go back</button>
+</div>
 
-    <script>
+<script>
 
 const y = 15
 const radius = 12.5
@@ -108,11 +127,11 @@ ctx.stroke();
 ctx.fillStyle = "blue";
 ctx.fill();
 
-// Linje 6
-var c = document.getElementById("Linje6")
+// Linje 2
+var c = document.getElementById("Linje2")
 var ctx = c.getContext("2d");
 
-//Laget linje 1
+//Laget linje 2
 ctx.beginPath();
 ctx.moveTo(50, y)
 ctx.lineTo(550, 15)
@@ -140,11 +159,11 @@ lageSirkel(ctx, 99, "purple")
 lageSirkel(ctx, 15, "black")
 
 
-//henter linje 2
-var c = document.getElementById("Linje2")
+//henter linje 3
+var c = document.getElementById("Linje3")
 var ctx = c.getContext("2d");
 
-//Laget linje 2
+//Laget linje 3
 ctx.beginPath();
 ctx.moveTo(50, y)
 ctx.lineTo(550, 15)
@@ -171,39 +190,8 @@ lageSirkel(ctx, 11, "purple")
 //Lage kule 7
 lageSirkel(ctx, 31, "black")
 
-//henter linje 3
-var c = document.getElementById("Linje3")
-var ctx = c.getContext("2d");
-
-//Laget linje 3
-ctx.beginPath();
-ctx.moveTo(50, y)
-ctx.lineTo(550, 15)
-ctx.stroke();
-
-//Lage kule 1
-lageSirkel(ctx, 90, "#00FFF0")
-
-//Lage kule 2
-lageSirkel(ctx, 9, "blue")
-
-//Lage kule 3
-lageSirkel(ctx, 40, "red")
-
-//Lage kule 4
-lageSirkel(ctx, 84, "green")
-
-//Lage kule 5
-lageSirkel(ctx, 30, "pink")
-
-//Lage kule 6
-lageSirkel(ctx, 60, "purple")
-
-//Lage kule 7
-lageSirkel(ctx, 20, "black")
-
-// Linje 7
-var c = document.getElementById("Linje7")
+// Linje 4
+var c = document.getElementById("Linje4")
 var ctx = c.getContext("2d");
 
 //Laget linje
@@ -233,10 +221,10 @@ lageSirkel(ctx, 1, "purple")
 //Lage kule 7
 lageSirkel(ctx, 51, "black")
 
-var c = document.getElementById("Linje4")
+var c = document.getElementById("Linje5")
 var ctx = c.getContext("2d");
 
-//Laget linje 4
+//Laget linje 5
 ctx.beginPath();
 ctx.moveTo(50, y)
 ctx.lineTo(550, 15)
@@ -261,15 +249,166 @@ lageSirkel(ctx, 90, "pink")
 lageSirkel(ctx, 40, "purple")
 
 //Lage kule 7
-lageSirkel(ctx, 10, "black")
+lageSirkel(ctx, 54, "black")
 
 
 
 
-var c = document.getElementById("Linje5")
+var c = document.getElementById("Linje6")
 var ctx = c.getContext("2d");
 
-//Laget linje 5
+//Laget linje 6
+ctx.beginPath();
+ctx.moveTo(50, y)
+ctx.lineTo(550, 15)
+ctx.stroke();
+
+//Lage kule 1
+lageSirkel(ctx, 60, "#00FFF0")
+
+//Lage kule 2
+lageSirkel(ctx, 99, "blue")
+
+//Lage kule 3
+lageSirkel(ctx, 40, "red")
+
+//Lage kule 4
+lageSirkel(ctx, 55, "green")
+
+//Lage kule 5
+lageSirkel(ctx, 55, "pink")
+
+//Lage kule 6
+lageSirkel(ctx, 99, "purple")
+
+//Lage kule 7
+lageSirkel(ctx, 34, "black")
+
+var c = document.getElementById("Linje7")
+var ctx = c.getContext("2d");
+
+//Laget linje 7
+ctx.beginPath();
+ctx.moveTo(50, y)
+ctx.lineTo(550, 15)
+ctx.stroke();
+
+//Lage kule 1
+lageSirkel(ctx, 60, "#00FFF0")
+
+//Lage kule 2
+lageSirkel(ctx, 35, "blue")
+
+//Lage kule 3
+lageSirkel(ctx, 40, "red")
+
+//Lage kule 4
+lageSirkel(ctx, 70, "green")
+
+//Lage kule 5
+lageSirkel(ctx, 99, "pink")
+
+//Lage kule 6
+lageSirkel(ctx, 55, "purple")
+
+//Lage kule 7
+lageSirkel(ctx, 87, "black")
+
+var c = document.getElementById("Linje8")
+var ctx = c.getContext("2d");
+
+//Laget linje 8
+ctx.beginPath();
+ctx.moveTo(50, y)
+ctx.lineTo(550, 15)
+ctx.stroke();
+
+//Lage kule 1
+lageSirkel(ctx, 60, "#00FFF0")
+
+//Lage kule 2
+lageSirkel(ctx, 99, "blue")
+
+//Lage kule 3
+lageSirkel(ctx, 60, "red")
+
+//Lage kule 4
+lageSirkel(ctx, 70, "green")
+
+//Lage kule 5
+lageSirkel(ctx, 55, "pink")
+
+//Lage kule 6
+lageSirkel(ctx, 78, "purple")
+
+//Lage kule 7
+lageSirkel(ctx, 76, "black")
+
+
+var c = document.getElementById("Linje9")
+var ctx = c.getContext("2d");
+
+//Laget linje 9
+ctx.beginPath();
+ctx.moveTo(50, y)
+ctx.lineTo(550, 15)
+ctx.stroke();
+
+//Lage kule 1
+lageSirkel(ctx, 60, "#00FFF0")
+
+//Lage kule 2
+lageSirkel(ctx, 80, "blue")
+
+//Lage kule 3
+lageSirkel(ctx, 40, "red")
+
+//Lage kule 4
+lageSirkel(ctx, 99, "green")
+
+//Lage kule 5
+lageSirkel(ctx, 55, "pink")
+
+//Lage kule 6
+lageSirkel(ctx, 28, "purple")
+
+//Lage kule 7
+lageSirkel(ctx, 23, "black")
+
+var c = document.getElementById("Linje10")
+var ctx = c.getContext("2d");
+
+//Laget linje 10
+ctx.beginPath();
+ctx.moveTo(50, y)
+ctx.lineTo(550, 15)
+ctx.stroke();
+
+//Lage kule 1
+lageSirkel(ctx, 60, "#00FFF0")
+
+//Lage kule 2
+lageSirkel(ctx, 80, "blue")
+
+//Lage kule 3
+lageSirkel(ctx, 40, "red")
+
+//Lage kule 4
+lageSirkel(ctx, 99, "green")
+
+//Lage kule 5
+lageSirkel(ctx, 60, "pink")
+
+//Lage kule 6
+lageSirkel(ctx, 30, "purple")
+
+//Lage kule 7
+lageSirkel(ctx, 43, "black")
+
+var c = document.getElementById("Linje11")
+var ctx = c.getContext("2d");
+
+//Laget linje 11
 ctx.beginPath();
 ctx.moveTo(50, y)
 ctx.lineTo(550, 15)
@@ -294,10 +433,9 @@ lageSirkel(ctx, 55, "pink")
 lageSirkel(ctx, 99, "purple")
 
 //Lage kule 7
-lageSirkel(ctx, 10, "black")
+lageSirkel(ctx, 60, "black")
 
-
-    </script>
+</script>
 
   </body>
 </html>
