@@ -1,0 +1,105 @@
+
+body {
+    text-align: center;
+    height: 100vh;
+    background: linear-gradient(180deg, #FFA740 0%, rgba(103, 16, 103, 0) 100%), #4E018A;
+  
+  }
+  h1 {
+      position: absolute;
+  width: 100px;
+  height: 150px;
+  left: 65px;
+  top: 1px;
+  
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 75px;
+  line-height: 116px;
+  
+  color: #FFFFFF;
+  }
+  b {
+      position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 65px;
+  top: 175px;
+  white-space: nowrap;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 750;
+  font-size: 30px;
+  line-height: 30px;
+  
+  color: #FFFFFF;
+  }
+  h2 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 100px;
+    top: 140px;
+  white-space: nowrap;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: small;
+    line-height: 30px;
+  
+    color: #FFFFFF;
+  }
+  hr {
+      position: absolute;
+      top: 360px;
+      left: 125px;
+  }
+  .button {
+      border: none;
+      color: white;
+      padding: 16px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+  
+  }
+  .button1 {
+    background-color: transparent;
+    color: black;
+    border: 2px solid #4CAF50;
+    border-width: thick;
+    position: absolute;
+    top: 460px;
+    left: 165px;
+  }
+  
+  .button1:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .button2 {
+    background-color: transparent;
+    color: black;
+    border: 2px solid #008CBA;
+    border-width: thick;
+  position: absolute;
+  top: 460px;
+  left: 485px;
+  }
+  
+  .button2:hover {
+    background-color: #008CBA;
+    color: white;
+  }
+
+  hr {
+    size: 2%;
+    width: 50%;
+    color: white;
+  }

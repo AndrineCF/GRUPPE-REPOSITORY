@@ -1,0 +1,93 @@
+body {
+    background: linear-gradient(180deg, #FFA740 0%, rgba(103, 16, 103, 0) 100%), #4E018A;
+    height: 100%;
+    color: white;
+    font-size: 19px;
+    font-family: 'Fragment Mono', monospace;
+}
+
+/* 
+@selects class="centreForm"
+@description: Sentrerer formen i midten af skærmen
+
+*/
+.centreForm {
+    text-align: center;
+}
+
+
+/* 
+@selects <input type="range">
+@description: Gir slideren en bredde og nul margin i x-rettning
+*/
+
+input[type="range"] {
+    width: 400px;
+    margin: 0;
+}
+
+
+/* 
+@selects class="slider-container"
+@description: Gjør elementet om til en flexbox, med en x margin på 15px, bredden er automatisk basert på boks bredden, og mellomrommet mellom elementet og kanten av boksen er 10px. Klassen har justify content space-bretween for å spre mellomrommet jevnt mellom sliderene.
+*/
+.slider-container {
+    display: flex;
+    margin: 15px;
+    width: auto;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.textbox-container {
+    display: 100px;
+    margin: 15px;
+    width: 500px;
+    padding: 50px;
+}
+
+/* 
+@selects <label>
+@description: Gir labelen en block display, og en bredde på 300px. Gjordt slik for å kunne plassere tekst elementene uten at teksten går på neste linje eller at slideren blir mindre/større pga. tekst lengde.
+*/
+
+label {
+    display: block;
+    width: 300px;
+}
+
+.submitB {
+    background-color: #4CAF50;
+    /* Green */
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+/*
+@hjemknapp på web-form
+*/
+
+.button-home {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+background-color: transparent;
+  color: black;
+  border: 2px solid #4CAF50;
+  border-width: thick;
+  position: absolute;
+  top: 50px;
+  left: 1300px;
+}
