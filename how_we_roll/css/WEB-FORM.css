@@ -169,3 +169,32 @@ Submit knapp for formen
     align-content: space-between;
     flex-direction: column;
 }
+
+/*Stil for slider*/
+
+.slider {
+    -webkit-appearance: none;
+    width: 400px;
+    height: 2px;
+    margin: 0px;
+    background: #000000;
+  }
+  
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    background: #FFFFFF;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    background: #FFFFFF;
+    cursor: pointer;
+  }
