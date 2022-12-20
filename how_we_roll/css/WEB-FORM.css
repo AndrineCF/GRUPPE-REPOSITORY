@@ -85,7 +85,9 @@ label {
     display: block;
     width: 300px;
 }
+
 .submitB {
+ /*
   background-color: #b9b8b84d; /* Green */
   color: white;
   border: none;
@@ -94,6 +96,18 @@ label {
   display: inline-block;
   font-size: 16px;
   border-radius: 8px;
+  */
+
+    background-color: #4CAF50;
+    /* Green */
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+
 }
 
 /*
